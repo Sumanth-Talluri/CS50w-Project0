@@ -1,21 +1,77 @@
-html {
-  font-family: sans-serif;
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
+html,
 body {
+  height: 100%;
+  width: 100%;
   background-color: #44bcd8;
 }
 
-header h1 {
-  font-family: sans-serif;
-  text-align: center;
-  color: black;
+.navbar {
+  background-color: #000000;
+  padding: 1% 0;
+  font-size: 1.2em;
 }
 
-nav > li {
-  color: white !important;
+.navbar-brand {
+  padding: 15px 15px 15px 15px;
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #ffffff;
+  margin: 5px;
+}
+
+.navbar-default .navbar-nav li a:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.main {
+  background-color: #626d70;
+}
+
+#home {
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+#home img {
+  padding: 7% 0 2% 0;
+}
+
+#home .btn {
+  margin: 20px 0 30px 0;
+}
+
+.landing-text {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.landing-text h1 {
+  font-size: 400%;
+  font-weight: 700;
+}
+
+footer {
+  width: 100%;
+  background-color: #000000;
+  padding: 1% 5% 1% 5%;
+  color: #ffffff;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.fa:hover {
+  color: #fba608;
+  text-decoration: none;
 }
 /*# sourceMappingURL=styles.css.map */

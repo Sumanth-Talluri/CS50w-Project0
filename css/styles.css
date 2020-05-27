@@ -101,4 +101,17 @@ footer {
   color: #fba608;
   text-decoration: none;
 }
+
+@media (max-width: 768px) {
+  .landing-text h1 {
+    font-size: 300%;
+  }
+  .fa {
+    font-size: 20px;
+    padding: 10px;
+  }
+  #home img {
+    padding-top: 15%;
+  }
+}
 /*# sourceMappingURL=styles.css.map */

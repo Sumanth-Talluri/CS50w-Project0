@@ -1,4 +1,4 @@
-$color: black;
+$color: #44bcd8;
 
 html {
 	font-family: sans-serif;
@@ -8,18 +8,7 @@ html {
 }
 
 body {
-	background-color: #44bcd8;
+	background-color: $color;
 }
 
-header {
-	h1 {
-		font-family: sans-serif;
-		text-align: center;
-		color: $color;
-	}
-}
-
-nav > li {
-	color: white !important;
-}
 //todo inheritance of sass

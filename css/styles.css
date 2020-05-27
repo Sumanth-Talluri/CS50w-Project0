@@ -1,8 +1,11 @@
-html,
-body {
+html, body {
   height: 100%;
   width: 100%;
   background-color: #44bcd8;
+}
+
+body {
+  padding-bottom: 130px;
 }
 
 .navbar {
@@ -40,6 +43,7 @@ body {
 
 #home img {
   padding: 7% 0 2% 0;
+  border-radius: 100%;
 }
 
 #home .btn {
@@ -55,6 +59,29 @@ body {
 .landing-text h1 {
   font-size: 400%;
   font-weight: 700;
+}
+
+#about {
+  padding: 2% 10% 10% 10%;
+}
+
+.abouth {
+  text-align: center;
+  font-size: 500%;
+  font-weight: 500;
+  padding-bottom: 5%;
+  color: #ffffff;
+  border: solid;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+#about ul li {
+  font-size: 150%;
+}
+
+#contact {
+  margin: 10% 10% 10% 10%;
 }
 
 footer {

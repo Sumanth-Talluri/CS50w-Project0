@@ -4,11 +4,15 @@ $black: #000000;
 $shadeofgray: #626d70;
 $yellow: #fba608;
 
-html,
-body {
+html {
 	height: 100%;
 	width: 100%;
 	background-color: $aquablue;
+}
+
+body {
+	@extend html;
+	padding-bottom: 130px;
 }
 
 .navbar {
@@ -44,6 +48,7 @@ body {
 	background-size: cover;
 	img {
 		padding: 7% 0 2% 0;
+		border-radius: 100%;
 	}
 	.btn {
 		margin: 20px 0 30px 0;
@@ -58,6 +63,29 @@ body {
 		font-size: 400%;
 		font-weight: 700;
 	}
+}
+
+#about {
+	padding: 2% 10% 10% 10%;
+}
+
+.abouth {
+	text-align: center;
+	font-size: 500%;
+	font-weight: 500;
+	padding-bottom: 5%;
+	color: $white;
+	border: solid;
+	padding: 20px;
+	margin-bottom: 50px;
+}
+
+#about ul li {
+	font-size: 150%;
+}
+
+#contact {
+	margin: 10% 10% 10% 10%;
 }
 
 footer {
@@ -77,5 +105,3 @@ footer {
 	color: $yellow;
 	text-decoration: none;
 }
-
-//todo inheritance of sass

@@ -88,6 +88,20 @@ body {
 	margin: 10% 10% 10% 10%;
 }
 
+#about table {
+	border: 3px solid $white;
+	font-size: 150%;
+	width: 60%;
+	td,
+	th {
+		border: 3px solid $white;
+		text-align: left;
+		width: 80%;
+		height: 5%;
+		padding: 1% 0 1% 1%;
+	}
+}
+
 footer {
 	width: 100%;
 	background-color: $black;

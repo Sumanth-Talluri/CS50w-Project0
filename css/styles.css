@@ -84,6 +84,21 @@ body {
   margin: 10% 10% 10% 10%;
 }
 
+#about table {
+  border: 3px solid #ffffff;
+  font-size: 150%;
+  width: 60%;
+}
+
+#about table td,
+#about table th {
+  border: 3px solid #ffffff;
+  text-align: left;
+  width: 80%;
+  height: 5%;
+  padding: 1% 0 1% 1%;
+}
+
 footer {
   width: 100%;
   background-color: #000000;

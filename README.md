@@ -58,7 +58,7 @@ This is the source map which will be generated when we use CSS Preprocessor like
 
 :computer: &nbsp; **View Course [here](https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript)**
 
-:arrow_forward: &nbsp; **View Live Demo [here]()**
+:arrow_forward: &nbsp; **View Live Demo [here](https://www.youtube.com/watch?v=oDsHi2ekC08)**
 
 &nbsp;
 
